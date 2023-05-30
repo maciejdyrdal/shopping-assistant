@@ -25,7 +25,7 @@ Phone>Pixel 3a>Tiramisu
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/70e722e6-e10b-4432-91e6-7f39aa4532fb)
 
 ## Uruchom __Android Virtual Device__:</br>
-__Android Virtual Device__ uruchamia się dosyć długo, ale nie martw się - wystarczy uruchomić go tylko raz.</br>
+__Android Virtual Device__ uruchamia się dosyć długo, ale nie martw się - wystarczy uruchomić je tylko raz.</br>
 
 Wejdź w __Device Manager__<br/>
 ![Instrukcja1](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/18e88d88-8380-476d-ae1e-797a2307b7ca)
