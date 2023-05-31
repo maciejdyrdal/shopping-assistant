@@ -2,6 +2,7 @@
 ## Nasza prezentacja: 
 https://docs.google.com/presentation/d/1zTBbklkK35PFm6trg3hEziMjq87j3Xiz33A22iE5RSg/edit?usp=share_link
 ## Na początku
+Pobierz branch - exercise.</br>
 
 Zainstaluj __Android Studio IDE__: https://developer.android.com/studio
 
@@ -45,7 +46,7 @@ File>Settings>Editor>General>Auto Import</br>
 
 
 ## Zadanie 1 - Layout
-W tym zadaniu zajmiesz się stworzeniem kilku podstawowych elementów UI.</br>
+W tym zadaniu zajmiesz się stworzeniem kilku podstawowych elementów UI - nie musisz nic kompilować.</br>
 Pobierz projekt do __Zadania 1__ </br>
 Włącz tryb __Android__ w __Project__ (jeżeli nie jest on już włączony)- pokazuje on abstrakcyjną strukturę plików, po której łatwiej się poruszać.</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/78d2ccdd-8ff0-4e30-870f-fa8207d192e7)
@@ -85,3 +86,4 @@ Dopisania kodu wymagają następujące pliki:</br>
 -NewProductSheet
 
 ## Zadanie 4
+W tym zadaniu dodasz ikonkę do aplikacji.</br>
