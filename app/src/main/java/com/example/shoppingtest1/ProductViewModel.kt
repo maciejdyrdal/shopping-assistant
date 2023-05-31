@@ -29,21 +29,6 @@ class ProductViewModel(private val repository: ProductItemRepository): ViewModel
         productItem.isPurchased = !productItem.isPurchased
         repository.updateProductItem(productItem)
     }
-
-//    fun updateProductItem(id: UUID, name: String, desc: String) {
-//        val list = productItems.value
-//        val product = list!!.find { it.id == id }!!
-//        product.name = name
-//        product.desc = desc
-//        productItems.postValue(list)
-//    }
-//
-//    fun togglePurchased(productItem: ProductItem) {
-//        val list = productItems.value
-//        val product = list!!.find { it.id == productItem.id }!!
-//        product.isPurchased = !product.isPurchased
-//        productItems.postValue(list)
-//    }
 }
 
 class ProductItemModelFactory(private val repository: ProductItemRepository) : ViewModelProvider.Factory {

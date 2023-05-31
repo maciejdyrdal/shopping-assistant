@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity(), ProductItemClickListener {
         val mainActivity = this
         productViewModel.productItems.observe(this) {
             binding.productListRecyclerView.apply {
-//                layoutManager = LinearLayoutManager(applicationContext)
                 layoutManager = GridLayoutManager(applicationContext, 3)
                 adapter = ProductItemAdapter(it, mainActivity)
             }

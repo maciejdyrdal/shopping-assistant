@@ -67,11 +67,13 @@ class NewProductSheet(var productItem: ProductItem?) : BottomSheetDialogFragment
         } else {
             Toast.makeText(
                 activity, "Please enter a name.",
-                Toast.LENGTH_LONG).show();
+                Toast.LENGTH_LONG).show()
         }
     }
 
     private fun deleteProduct() {
         productViewModel.deleteProductItem(productItem!!)
     }
+
+    // this is the exercise branch
 }
