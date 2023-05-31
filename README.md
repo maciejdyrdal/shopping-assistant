@@ -87,4 +87,9 @@ Dopisania kodu wymagają następujące pliki:</br>
 -NewProductSheet
 
 ## Zadanie 4
+Dodaj ikonkę do przycisku New Product</br>
 
+Najpierw dodaj ikonkę do swojego projektu - kliknij prawym przyciskiem na folder drawable i wybierz New > Vector Asset.</br>
+Kliknij w przycisk obok pozycji Clip Art i w nowo otwartym oknie wyszukaj i wybierz ikonkę o nazwie "add". Wybierz ją, kliknij "Ok" i zmień nazwę (np. na ic_add), kliknij "Next" i "Finish".</br>
+Sprawdź, czy nowa ikonka pojawiła się w folderze drawable.</br>
+Następnie prejdź do pliku layout/activity_main.xml, znajdź element odpowiadający za przycisk i dodaj atrybut icon, przekazując mu nazwę utworzonej ikonki.<br>
