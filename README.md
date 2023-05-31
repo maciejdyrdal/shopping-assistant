@@ -46,8 +46,34 @@ File>Settings>Editor>General>Auto Import</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/c2aa87f8-28cf-44f4-9a72-071d556790ea)
 
 
-## Zadanie 1
-
+## Zadanie 1 - Layout
+W tym zadaniu zajmiesz się stworzeniem kilku podstawowych elementów UI.</br>
+Pobierz projekt do __Zadania 1__ </br>
+Włącz tryb __Android__ w __Project__ (jeżeli nie jest on już włączony)- pokazuje on abstrakcyjną strukturę plików, po której łatwiej się poruszać.</br>
+![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/78d2ccdd-8ff0-4e30-870f-fa8207d192e7)
+![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/fa7518de-a8c7-438e-8ff8-a2743e872d05)
+</br>
+Przejdź do: app>res>layout>fragment_new_product_sheet</br>
+![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/67a7c816-1037-4391-9aa8-ab4a0d211921)
+</br>
+Zadanie polega na dodaniu odpowiednich __View__, by otrzymać następujący __Layout__</br>
+![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/dc2b6ba4-1bab-401b-b4ee-036e996425b9)
+</br>
+Layout można edytować na 2 sposoby:</br>
+1. Edycja pliku .xml
+2. Wykorzystanie okna design i dodawanie __View__ za pomocą __Drag And Drop__
+</br>
+Rekomendujemy wybrać tryb __Split__ , by na bieżąco widzieć zmiany zarówno w oknie __Design__ i pliku .xml</br>
+Zanim rozpoczniesz przyglądnij się zaimplementowanym już __View__ . Wykonaj zadanie na ich podstawie.</br> 
+</br>
+</br>
 ## Zadanie 2
+W tym zadaniu zajmiesz się implementacją funkcjonalności, do dodanego przez Ciebie w __Zadaniu 1__ pola tekstowego.</br>
+Przejdź do: app>java>com.example.shoppingassistant>NewProductSheet</br>
+![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/aa7afaa1-89d7-490e-a1be-d04017e92e4d)
+</br>
+
 
 ## Zadanie 3
+
+## Zadanie 4
