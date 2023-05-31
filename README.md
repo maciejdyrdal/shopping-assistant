@@ -12,8 +12,6 @@ Przy instalacji najlepiej zaznacz opcję install __Android Virtual Device__ (scr
 
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/7ad4f84f-782a-4a87-816e-aec8d1492b8f)
 
-## Pobierz to repozytorium, wypakuj i otwórz w __Android Studio__</br>
-
 ## Jeżeli nie zainstalowałeś __Android Virtual Device__:</br>
 Wejdź w __Device Manager__<br/>
 ![Instrukcja1](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/18e88d88-8380-476d-ae1e-797a2307b7ca)
@@ -60,20 +58,22 @@ Zadanie polega na dodaniu odpowiednich __View__, by otrzymać następujący __La
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/dc2b6ba4-1bab-401b-b4ee-036e996425b9)
 </br>
 Layout można edytować na 2 sposoby:</br>
-1. Edycja pliku .xml
-2. Wykorzystanie okna design i dodawanie __View__ za pomocą __Drag And Drop__
-</br>
-Rekomendujemy wybrać tryb __Split__ , by na bieżąco widzieć zmiany zarówno w oknie __Design__ i pliku .xml</br>
-Zanim rozpoczniesz przyglądnij się zaimplementowanym już __View__ . Wykonaj zadanie na ich podstawie.</br> 
-</br>
-</br>
+- Edycja pliku .xml
+- Wykorzystanie okna design i dodawanie __View__ za pomocą __Drag And Drop__
+
+Rekomendujemy wybrać tryb __Split__, by na bieżąco widzieć zmiany zarówno w oknie __Design__ i pliku .xml</br>
+
+![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/6639f74d-cbd9-4b57-b168-12b8d62ceab2)
+
+Zanim rozpoczniesz - przyglądnij się zaimplementowanym już __View__. Wykonaj zadanie na ich podstawie.</br> 
+
 ## Zadanie 2
 W tym zadaniu zajmiesz się implementacją funkcjonalności, do dodanego przez Ciebie w __Zadaniu 1__ pola tekstowego.</br>
 Przejdź do: app>java>com.example.shoppingassistant>NewProductSheet</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/aa7afaa1-89d7-490e-a1be-d04017e92e4d)
 </br>
 
-
 ## Zadanie 3
+W tym zadaniu zajmiesz się implementacją funkcjonalności, do dodanego przez Ciebie w __Zadaniu 1__ przycisku __Delete__.</br>
 
 ## Zadanie 4
