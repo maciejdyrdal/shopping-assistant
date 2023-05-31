@@ -45,8 +45,8 @@ File>Settings>Editor>General>Auto Import</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/c2aa87f8-28cf-44f4-9a72-071d556790ea)
 
 
-## Zadanie 1 - Layout
-W tym zadaniu zajmiesz się stworzeniem kilku podstawowych elementów UI - nie musisz nic kompilować.</br>
+## Zadanie 1
+W tym i kolejnym zadaniu zajmiesz się stworzeniem kilku podstawowych elementów UI - nie musisz nic kompilować.</br>
 Pobierz projekt do __Zadania 1__ </br>
 Włącz tryb __Android__ w __Project__ (jeżeli nie jest on już włączony)- pokazuje on abstrakcyjną strukturę plików, po której łatwiej się poruszać.</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/78d2ccdd-8ff0-4e30-870f-fa8207d192e7)
@@ -55,7 +55,7 @@ Włącz tryb __Android__ w __Project__ (jeżeli nie jest on już włączony)- po
 Przejdź do: app>res>layout>fragment_new_product_sheet</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/67a7c816-1037-4391-9aa8-ab4a0d211921)
 </br>
-Zadanie polega na dodaniu odpowiednich __View__, by otrzymać następujący __Layout__</br>
+Zadanie polega na dodaniu drugiego z widocznych pól tekstowych, służącego do dodania opisu produktu.</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/dc2b6ba4-1bab-401b-b4ee-036e996425b9)
 </br>
 Layout można edytować na 2 sposoby:</br>
@@ -69,22 +69,22 @@ Rekomendujemy wybrać tryb __Split__, by na bieżąco widzieć zmiany zarówno w
 Zanim rozpoczniesz - przyglądnij się zaimplementowanym już __View__. Wykonaj zadanie na ich podstawie.</br> 
 
 ## Zadanie 2
-W tym zadaniu zajmiesz się implementacją funkcjonalności, do dodanego przez Ciebie w __Zadaniu 1__ pola tekstowego.</br>
-Przejdź do: app>java>com.example.shoppingassistant>NewProductSheet</br>
+W tym zadaniu zajmiesz się dodaniem przycisku służącego do usunięcia produktu.<br>
+W pliku fragment_new_product_sheet.xml znajdziesz wskazówki do wykonania zadania.
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/aa7afaa1-89d7-490e-a1be-d04017e92e4d)
 </br>
 
 ## Zadanie 3
-W tym zadaniu zajmiesz się implementacją funkcjonalności, do dodanego przez Ciebie w __Zadaniu 1__ przycisku __Delete__.</br>
+W tym zadaniu zajmiesz się implementacją funkcjonalności, do dodanego przez Ciebie w __Zadaniu 2__ przycisku __Delete__.</br>
 Prześledź w jaki sposób komunikują się ze sobą różne klasy.</br>
 Przyglądnij się jak działa __Add/Insert__ oraz __Update__. Wykonaj zadanie na jego podstawie.</br>
 Wskazówki:</br>
-Używaj __Ctrl + LMC__ by znaleźć inne wystąpienia<br/>
 Dopisania kodu wymagają następujące pliki:</br>
--ProductItemDao
+-ProductItemDao.kt
 -ProductItemRepository.kt
 -ProductViewModel.kt
--NewProductSheet
+-NewProductSheet.kt<br>
+Zacznij od pliku ProductItemDao.kt, w nim znajdziesz wskazówki co robić dalej.<br>
 
 ## Zadanie 4
 Dodaj ikonkę do przycisku New Product</br>
