@@ -47,7 +47,7 @@ File>Settings>Editor>General>Auto Import</br>
 
 ## Zadanie 1
 W tym i kolejnym zadaniu zajmiesz się stworzeniem kilku podstawowych elementów UI - nie musisz nic kompilować.</br>
-Pobierz projekt do __Zadania 1__ </br>
+<br></br>
 Włącz tryb __Android__ w __Project__ (jeżeli nie jest on już włączony)- pokazuje on abstrakcyjną strukturę plików, po której łatwiej się poruszać.</br>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/78d2ccdd-8ff0-4e30-870f-fa8207d192e7)
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/fa7518de-a8c7-438e-8ff8-a2743e872d05)
