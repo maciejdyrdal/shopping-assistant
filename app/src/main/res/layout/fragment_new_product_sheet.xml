@@ -32,20 +32,12 @@
         
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:layout_marginHorizontal="20dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+    <!--TODO-->
+    <!--Dodaj drugie pole tekstowe służące do wpisania opisu produktu-->
+    <!--Utwórz nowy TextInputLayout, a w nim TextInputEditText - tak jak powyźej-->
+    <!--ID TextInputEditTexta ustaw na "desc", a hint na "Description"-->
+    <!--Jeśli nie wykonasz tego kroku lub ustawisz złe ID aplikacja się nie zbuduje-->
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/desc"
-            android:hint="@string/new_product_desc"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/save_button"

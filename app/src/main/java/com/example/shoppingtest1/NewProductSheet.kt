@@ -38,7 +38,7 @@ class NewProductSheet(var productItem: ProductItem?) : BottomSheetDialogFragment
 
         /**
          * TODO
-         * Dodaj OnClickListener dla przycisku do usuwania produktu z listy.
+         * Dodaj OnClickListener dla przycisku do usuwania produktu z listy (użyj ID przycisku nadane w poprzednim kroku).
          * Usuwanie odbywa się przez wywołanie na obiekcie productViewModel funkcji
          * deleteProductItem(), którą utworzyłeś w poprzednich krokach.
          * Jako argument przekaż zmienną productItem pamiętając o dodaniu operatora !! na końcu jej nazwy.
