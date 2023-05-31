@@ -75,5 +75,13 @@ Przejdź do: app>java>com.example.shoppingassistant>NewProductSheet</br>
 
 ## Zadanie 3
 W tym zadaniu zajmiesz się implementacją funkcjonalności, do dodanego przez Ciebie w __Zadaniu 1__ przycisku __Delete__.</br>
+Prześledź w jaki sposób komunikują się ze sobą różne klasy.</br>
+Przyglądnij się jak działa __Add__. Wykonaj zadanie na jego podstawie.</br>
+Wskazówka:</br>
+Dopisania kodu wymagają następujące pliki:</br>
+-ProductItemDao
+-ProductItemRepository.kt
+-ProductViewModel.kt
+-NewProductSheet
 
 ## Zadanie 4
