@@ -31,16 +31,28 @@ class NewProductSheet(var productItem: ProductItem?) : BottomSheetDialogFragment
 
         val activity = requireActivity()
         productViewModel = ViewModelProvider(activity).get(ProductViewModel::class.java)
+
         binding.saveButton.setOnClickListener {
             saveAction()
         }
 
-        binding.deleteButton.setOnClickListener {
-            if (productItem != null) {
-                deleteProduct()
-            }
-            dismiss()
-        }
+        /**
+         * TODO
+         * Dodaj OnClickListener dla przycisku do usuwania produktu z listy.
+         * Usuwanie odbywa się przez wywołanie na obiekcie productViewModel funkcji
+         * deleteProductItem(), którą utworzyłeś w poprzednich krokach.
+         * Jako argument przekaż zmienną productItem pamiętając o dodaniu operatora !! na końcu jej nazwy.
+         * Wskazówki do wykonania tego zadania znajdziesz w różnych miejscach tego pliku.
+         *
+         * Pamiętaj, aby sprawdzić, czy produkt istnieje (próba usunięcia nieistniejącego produktu
+         * zakończy się crashem aplikacji).
+         *
+         * Dodatkowo możesz wywołać funkcję dismiss(), aby po kliknięciu menu się zamknęło.
+         *
+         * Pamiętaj, że nazwa elementu zdefiniowana w pliku .xml w formacie snake_case zostaje
+         * zamieniona na camelCase w pliku .kt (na przykład: save_button -> saveButton).
+         */
+
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -70,10 +82,4 @@ class NewProductSheet(var productItem: ProductItem?) : BottomSheetDialogFragment
                 Toast.LENGTH_LONG).show()
         }
     }
-
-    private fun deleteProduct() {
-        productViewModel.deleteProductItem(productItem!!)
-    }
-
-    // this is the exercise branch
 }

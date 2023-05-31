@@ -57,14 +57,10 @@
         android:backgroundTint="?attr/colorPrimary"
         android:textColor="?attr/colorOnPrimary"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/delete_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="20dp"
-        android:backgroundTint="@color/red_light"
-        android:text="@string/delete_button"
-        android:textColor="@color/white"/>
+    <!--TODO-->
+    <!--Dodaj przycisk do usuwania produktu wzorując się na przycisku powyżej-->
+    <!--Nadaj mu unikalne id (np. delete_button), którego użyjesz później do dodania funkcjonalności usuwania-->
+    <!--Kolor tekstu i tła ustaw odpowiednio na wartości @color/white i @color/red_light-->
+
 
 </LinearLayout>

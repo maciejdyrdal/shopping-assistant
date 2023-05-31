@@ -16,8 +16,11 @@ class ProductItemRepository(private val productItemDao: ProductItemDao) {
         productItemDao.updateProductItem(productItem)
     }
 
-    @WorkerThread
-    suspend fun deleteProductItem(productItem: ProductItem) {
-        productItemDao.deleteProductItem(productItem)
-    }
+    /**
+     * TODO
+     * Utwórz funkcję deleteProductItem() na wzór powyższych funkcji
+     * Pamiętaj o dodaniu adnotacji @WorkerThread
+     * Kolejny krok: plik ProductViewModel.kt
+     */
+
 }

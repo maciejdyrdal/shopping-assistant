@@ -21,9 +21,12 @@ class ProductViewModel(private val repository: ProductItemRepository): ViewModel
         repository.updateProductItem(productItem)
     }
 
-    fun deleteProductItem(productItem: ProductItem) = viewModelScope.launch {
-        repository.deleteProductItem(productItem)
-    }
+    /**
+     * TODO
+     * Utwórz funkcję deleteProductItem() na wzór powyższych funkcji
+     * Kolejny krok: plik NewProductSheet.kt
+     */
+
 
     fun togglePurchased(productItem: ProductItem) = viewModelScope.launch {
         productItem.isPurchased = !productItem.isPurchased

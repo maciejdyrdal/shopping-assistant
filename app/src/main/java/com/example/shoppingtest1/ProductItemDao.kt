@@ -19,6 +19,11 @@ interface ProductItemDao {
     @Update
     suspend fun updateProductItem(productItem: ProductItem)
 
-    @Delete
-    suspend fun deleteProductItem(productItem: ProductItem)
+    /**
+     * TODO
+     * Utwórz funkcję deleteProductItem() na wzór powyższych funkcji
+     * Pamiętaj o dodaniu adnotacji @Delete
+     * Kolejny krok: plik ProductItemRepository.kt
+     */
+
 }
