@@ -31,6 +31,8 @@ Wejdź w __Device Manager__<br/>
 
 Kliknij trójkąt<br/>
 ![image](https://github.com/maciejdyrdal/shopping-assistant/assets/115181486/608c5e34-4292-4d20-94f7-9fe569d6c7e0)
+<br>
+Jeżeli uruchamiasz aplikację na własnym urządzeniu, upewnij się, że masz włączone USB debugging (Settings > Developer options > USB debugging)<br>
 
 
 ## Ustawienia Quality of Life w Android Studio - Opcjonalne
