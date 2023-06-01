@@ -1,6 +1,9 @@
 # Shopping Assistant
 ## Nasza prezentacja: 
 https://docs.google.com/presentation/d/1zTBbklkK35PFm6trg3hEziMjq87j3Xiz33A22iE5RSg/edit?usp=share_link
+
+## Kurs __Kotlina__ w __Android Studio__:
+https://developer.android.com/courses
 ## Na początku
 ## Pobierz branch - exercise.</br>
 
