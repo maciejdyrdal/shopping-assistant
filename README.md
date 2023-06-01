@@ -2,7 +2,7 @@
 ## Nasza prezentacja: 
 https://docs.google.com/presentation/d/1zTBbklkK35PFm6trg3hEziMjq87j3Xiz33A22iE5RSg/edit?usp=share_link
 ## Na początku
-Pobierz branch - exercise.</br>
+## Pobierz branch - exercise.</br>
 
 Zainstaluj __Android Studio IDE__: https://developer.android.com/studio
 
